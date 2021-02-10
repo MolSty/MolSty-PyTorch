@@ -24,3 +24,7 @@ To generate molecules using MolSty, use:
 `sh generate.sh PATH_CHECKPOINT`
 
 where, `PATH_CHECKPOINT` ./checkpoints/ckpt_SA_100.pt
+
+To evaluate the generated molecules, use:
+
+`python ./eval/eval.py --target TARGET`
