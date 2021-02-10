@@ -25,6 +25,6 @@ To generate molecules using MolSty, use:
 
 where, `PATH_CHECKPOINT` ./checkpoints/ckpt_SA_100.pt
 
-To evaluate the generated molecules, use:
+To evaluate the generated molecules, please unzip file ROOT/eval/zinc_all_alerts_pred.zip first, and use:
 
 `python ./eval/eval.py --target TARGET`
