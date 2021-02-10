@@ -25,7 +25,7 @@ To generate molecules using MolSty, use:
 
 `sh generate_SA.sh PATH_CHECKPOINT` and `sh generate_TOX.sh PATH_CHECKPOINT`
 
-where, `PATH_CHECKPOINT` ./checkpoints/ckpt_SA_100.pt
+where, `<PATH_CHECKPOINT>` is the checkpoint path, for example, `./checkpoints/ckpt_SA_100.pt`
 
 To evaluate the generated molecules, please unzip file ROOT/eval/zinc_all_alerts_pred.zip first, and use:
 
