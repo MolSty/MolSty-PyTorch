@@ -21,7 +21,7 @@ To train model using MolSty, use:
 
 To generate molecules using MolSty, use:
 
-`sh generate.sh PATH_CHECKPOINT`
+`sh generate_SA.sh PATH_CHECKPOINT` and `sh generate_TOX.sh PATH_CHECKPOINT`
 
 where, `PATH_CHECKPOINT` ./checkpoints/ckpt_SA_100.pt
 
