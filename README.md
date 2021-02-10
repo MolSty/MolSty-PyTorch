@@ -21,4 +21,6 @@ To train model using MolSty, use:
 
 To generate molecules using MolSty, use:
 
-`python ./scripts/sample.py --target SA --model_load ./checkpoints/ckpt_SA_100.pt`
+`sh generate.sh PATH_CHECKPOINT`
+
+where, `PATH_CHECKPOINT` ./checkpoints/ckpt_SA_100.pt
