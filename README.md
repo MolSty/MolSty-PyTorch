@@ -19,7 +19,7 @@ To train model using MolSty, use:
 
 `python ./scripts/train.py MolSty --target TARGET --model_save ./checkpoints`
 
-where `TARGET` ***
+where `<TARGET>` is the name of dataset, "SA" and "TOX" are supported in this repository.
 
 To generate molecules using MolSty, use:
 
