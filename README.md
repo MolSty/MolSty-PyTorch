@@ -17,7 +17,9 @@ We have prepared two training datasets based on different properties, toxicity a
 ## Running MolSty
 To train model using MolSty, use:
 
-`python ./scripts/train.py MolSty --target SA --model_save ./checkpoints`
+`python ./scripts/train.py MolSty --target TARGET --model_save ./checkpoints`
+
+where `TARGET` ***
 
 To generate molecules using MolSty, use:
 
