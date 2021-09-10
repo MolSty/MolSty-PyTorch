@@ -1,4 +1,0 @@
-sh run.sh
-python predict.py --data_path ./data/zinc250.csv
-
-python eval_tox.py --data_path TOX_0_selected_30_500.smi

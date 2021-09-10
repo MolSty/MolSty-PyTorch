@@ -1,1 +1,0 @@
-python train.py --data_path=./data/tox21.csv --dataset_type=classification --epochs=15 --num_folds=5 --gpu=1
