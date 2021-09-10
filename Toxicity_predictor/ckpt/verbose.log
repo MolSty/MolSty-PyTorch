@@ -1,0 +1,58 @@
+Fold 0
+Loading data
+Warning: 6 SMILES are invalid.
+Number of tasks = 1
+Splitting data with seed 0
+Class sizes
+label 0: 46.25%, 1: 53.75%
+Total size = 6,506 | train size = 5,204 | val size = 651 | test size = 651
+Building model 0
+MoleculeModel(
+  (sigmoid): Sigmoid()
+  (encoder): MPN(
+    (encoder): MPNEncoder(
+      (dropout_layer): Dropout(p=0.0, inplace=False)
+      (act_func): ReLU()
+      (W_i_atom): Linear(in_features=133, out_features=300, bias=False)
+      (W_i_bond): Linear(in_features=147, out_features=300, bias=False)
+      (W_h_atom): Linear(in_features=447, out_features=300, bias=False)
+      (W_h_0): Linear(in_features=300, out_features=300, bias=False)
+      (W_h_1): Linear(in_features=300, out_features=300, bias=False)
+      (W_o): Linear(in_features=600, out_features=300, bias=True)
+      (gru): BatchGRU(
+        (gru): GRU(300, 300, batch_first=True, bidirectional=True)
+      )
+      (lr): Linear(in_features=900, out_features=300, bias=False)
+    )
+  )
+  (ffn): Sequential(
+    (0): Dropout(p=0.0, inplace=False)
+    (1): Linear(in_features=300, out_features=300, bias=True)
+    (2): ReLU()
+    (3): Dropout(p=0.0, inplace=False)
+    (4): Linear(in_features=300, out_features=1, bias=True)
+  )
+)
+Number of parameters = 2,022,901
+Moving model to cuda
+Epoch 0
+Validation auc = 0.803218
+Epoch 1
+Validation auc = 0.813607
+Epoch 2
+Validation auc = 0.845620
+Epoch 3
+Validation auc = 0.875947
+Epoch 4
+Validation auc = 0.878909
+Epoch 5
+Validation auc = 0.880299
+Epoch 6
+Validation auc = 0.886126
+Epoch 7
+Validation auc = 0.888650
+Epoch 8
+Validation auc = 0.889516
+Epoch 9
+Validation auc = 0.878966
+Epoch 10
